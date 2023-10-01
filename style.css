@@ -1,0 +1,43 @@
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.card form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.233); /* Kartın arka plan rengi ve şeffaflık ayarı */
+}
+
+
+.card-header, .card form{
+    color: rgba(255, 255, 255, 0.884);
+}
+.form-group label{
+    margin-bottom: 0.5rem;
+}
+.inp-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.inp-box i{
+    position: absolute;
+    right: 10px;
+}
+.error{
+    color: rgb(255, 0, 0);
+}
+.checked{
+    color: rgb(0, 255, 0);
+}
+.displayChecked, .displayError{
+    display: none;
+}
